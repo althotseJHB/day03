@@ -12,6 +12,5 @@
 
 void ft_ft(int *nbr)
 {
-	//a = *nbr;
 	*nbr = 42;
 }
