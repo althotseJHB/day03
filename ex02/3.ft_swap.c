@@ -10,14 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-	return (0);
-}
-
 void ft_swap(int *a, int *b)
 {
 	int e;
@@ -25,14 +17,4 @@ void ft_swap(int *a, int *b)
 	e = *a;
 	*a = *b;
 	*b = *a;
-}
-
-void main()
-{
-	int m;
-	int y;
-
-	ft_swap(&m, &y)
-
-	return ();
 }
